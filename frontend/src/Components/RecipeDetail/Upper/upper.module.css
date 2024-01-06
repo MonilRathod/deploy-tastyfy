@@ -1,0 +1,86 @@
+.Left{
+    margin-top: 15px;
+    width: 20%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #7070702a;
+}
+
+.Middle{
+    margin-top:15px;
+    width: 20%;
+    height: 180px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #7070702a;
+    text-align: center;
+}
+
+.PhotoContainer{
+    margin-top: 5px;
+    width: 50%;
+}
+
+.Background{
+    background-color: rgba(0,0,0,0.01);
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.Display{
+    font-style: "SF Pro";
+    font-size: 21px;
+    color: #104944;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.Button{
+  border-radius: 14px;
+  background: rgba(2, 138, 255, 0.91);
+  border: 1px solid rgba(112, 112, 112, 0.22);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+  color: #ffffff;
+    width: 70%;
+    height: 20%;
+    margin-top: 20%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 2px solid rgba(2, 138, 255, 0.91);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    color: rgba(2, 138, 255, 0.91) ;
+}
+
+.TimeCook{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+.VegNonLogo {
+  margin-left: 1vw;
+}
+.upper_img {
+  border-radius: 13px;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+/* max-width: 20vw;
+max-height: 20vw; */
+}
+
+.infoSec{
+  background-color: rgb(219, 219, 219);
+}

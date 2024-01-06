@@ -1,0 +1,101 @@
+.profile{
+    margin: 2px;
+    padding: 5px;
+    /* height: 98vh; */
+    border-bottom-left-radius:50px ;
+    border-top-right-radius:50px ;
+    /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS3M5p-bx8Sz4ee-h4NNmbyxqM8LYetcCf7A&usqp=CAU') no-repeat center center/cover; */
+  
+  }
+  .photobox{
+    margin-left: 55% ;
+    margin-top: 2rem;
+    transform: translateX(-50%);
+  }
+  .bio{
+    width: 100%;
+    /* height: 25%;  */
+    padding-bottom: 18px;
+    /* display: flex;
+    flex-direction: row;   */
+    border-top-right-radius:50px ;
+    /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS3M5p-bx8Sz4ee-h4NNmbyxqM8LYetcCf7A&usqp=CAU') no-repeat center center/cover; */
+  }
+
+  .bionibaju{
+    margin-left: 50%;
+    font-weight: bold;
+    transform: translateX(-55%);
+  }
+
+  .content-center-dashboard{
+    text-align: center;
+  }
+
+  .bionibaju > h1{
+    scale: 1.15;
+    padding-bottom: 5px;
+  }
+  .bioicon{
+    margin:10px;
+    display: inline;
+  }
+  .biobottom{
+    padding-top: 5px;
+    font-weight: bolder;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .data{
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+  }
+  .main_card{
+    width: 90%;
+    margin-left: 5vw;
+    background-color:rgb(245, 245, 245);
+    border-radius: 13px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.116);
+  }
+  a {
+    font-size: 22px;
+    /* color: rgb(255, 255, 255); */
+    text-decoration: none;
+  }
+  .profilebutton{
+    /* font-weight: bold; */
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-25%);
+    background-color:white;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0px 10rem;
+    border: 2px solid black;
+  }
+
+  .profilebutton:hover{
+    box-shadow: 2px 2px 2rem black;
+  }
+
+  .NameCard{
+    margin-left: 35%;
+    width: 20vw;
+    height: 8vw;
+    padding-top: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+    border-radius: 13px;
+  }
+
+  .dmenu{
+    font-weight: 100;
+    background-color: white;
+    width: 25vw;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+    margin-left: 37%;
+  }

@@ -1,0 +1,26 @@
+.Background{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 8px;
+    background: #fff;
+    width: 59.5vw;
+    border: 1px solid rgba(112, 112, 112, 0.3);
+    padding: 10px;
+}
+
+.Heading{
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 1%;
+    margin-top: 0px;
+}
+
+.Display{
+    margin-top: 0px;
+    margin-left: 1vw;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+

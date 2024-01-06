@@ -1,0 +1,41 @@
+.container-upload{
+    width: 60vmax;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    margin-left: 20vmax;
+    margin-right: 20vmax;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.mb-3{
+    display: block;
+}
+
+.upload-title{
+    text-align: center;
+}
+
+.close-btn{
+    position: relative;
+    right: 30vw;
+    left:56vw;
+    color: black;
+    display: inline-block;
+    justify-content: center;
+    font-size: medium;
+}
+
+.flexclass{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexitem{
+    flex:1 0 0;
+}

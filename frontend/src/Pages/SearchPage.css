@@ -1,0 +1,62 @@
+.Search-container{
+    background-color: white;
+    width: 40vw;
+    padding: 30px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.137);
+    display: block;
+    justify-content: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 10px;
+    border-color: rgba(0, 0, 0, 0.137);
+    border-style: solid;
+    border-radius: 13px;
+    border-width: 1px;
+}
+
+.select-category .select-meal{
+    outline: none;
+}
+
+.btn-search {
+    display: block;
+	font-size: 21px;
+	padding: 5px 20px;
+    width: 100px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+	border: 0;
+	background-color: #037e8c;
+	color: #fff;
+	border-radius: 3px;
+	transition: all 250ms ease-in-out;
+	cursor: pointer;
+}
+
+.btn-search:hover {
+	background-color: #13c0e5;
+}
+
+.btn-search:focus {
+	outline: none;
+}
+
+.prep{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.prep input{
+    padding: 5px;
+}
+
+.result{
+    margin-left: 5vw;
+    margin-top: 2rem;
+    margin-right: 5vw;
+    padding-left: 2vw;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.137);
+    border-radius: 13px;
+}

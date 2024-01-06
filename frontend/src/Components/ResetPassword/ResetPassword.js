@@ -14,8 +14,8 @@ class ResetPassword extends React.Component {
       authtoken: "",
       otp: "",
       newpassword:"",
-      url : "http://localhost:5000/user/forgetpassword",
-      url2 : "http://localhost:5000/user/resetpassword"
+      url : "https://backend-tastyfy.onrender.com/user/forgetpassword",
+      url2 : "https://backend-tastyfy.onrender.com/user/resetpassword"
     }
   }
   handle = (event) => {

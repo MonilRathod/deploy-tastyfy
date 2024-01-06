@@ -34,7 +34,7 @@ function App() {
       setIsError(false);
 
       axios
-        .get(`http://localhost:5000/recipe/all`)
+        .get(`https://backend-tastyfy.onrender.com/recipe/all`)
         .then(({ data }) => {
           if (data.ok === true) {
             setR(data.data.recipe);
@@ -54,7 +54,7 @@ function App() {
     const auth = localStorage.getItem('auth-token');
     if (auth !== null) {
       axios
-        .get(`http://localhost:5000/user/detail`, {
+        .get(`https://backend-tastyfy.onrender.com/user/detail`, {
           headers: {
             'auth-token': auth
           }

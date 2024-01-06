@@ -12,7 +12,7 @@ class Register extends React.Component {
       name : "",
       email: "",
       password:"",
-      url : "http://localhost:5000/user/register"
+      url : "https://backend-tastyfy.onrender.com/user/register"
     }
   }
   handle = (event) => {

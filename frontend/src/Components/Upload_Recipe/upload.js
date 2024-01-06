@@ -75,7 +75,7 @@ function Upload(props) {
 
       setIsError(false);
 
-      let one = `http://localhost:5000/query/ingredients`;
+      let one = `https://backend-tastyfy.onrender.com/query/ingredients`;
 
       const requestOne = axios.get(one);
 
@@ -166,7 +166,7 @@ function Upload(props) {
     }
     const auth = localStorage.getItem('auth-token');
     axios
-      .post(`http://localhost:5000/recipe/upload`, body, {
+      .post(`https://backend-tastyfy.onrender.com/recipe/upload`, body, {
         headers : {'auth-token' : auth}
       })
       .then((res) => {

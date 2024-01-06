@@ -11,7 +11,7 @@ function Login(props) {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const url = "http://localhost:5000/user/login";
+  const url = "https://backend-tastyfy.onrender.com/user/login";
 
   const handleemail = (e) => {
     setEmail(e.target.value);
@@ -30,7 +30,7 @@ function Login(props) {
         if (res.data.ok === true) {
           localStorage.setItem('auth-token', res.data.data.token);
           Axios
-            .get(`http://localhost:5000/user/detail`, {
+            .get(`https://backend-tastyfy.onrender.com/user/detail`, {
               headers: {
                 'auth-token': res.data.data.token
               }

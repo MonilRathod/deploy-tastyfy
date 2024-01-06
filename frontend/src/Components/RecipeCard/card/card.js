@@ -60,7 +60,7 @@ export default function Card({ r }) {
             };
             const auth = localStorage.getItem('auth-token');
             axios
-                .put(`http://localhost:5000/recipe/like`, body, {
+                .put(`https://backend-tastyfy.onrender.com/recipe/like`, body, {
                     headers: { 'auth-token': auth }
                 })
                 .then((res) => {
@@ -108,7 +108,7 @@ export default function Card({ r }) {
             };
             const auth = localStorage.getItem('auth-token');
             axios
-                .put(`http://localhost:5000/recipe/save`, body, {
+                .put(`https://backend-tastyfy.onrender.com/recipe/save`, body, {
                     headers: { 'auth-token': auth }
                 })
                 .then((res) => {

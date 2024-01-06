@@ -96,7 +96,7 @@ export default function SearchPage() {
         };
         console.log(body);
         axios
-            .post(`http://localhost:5000/query/search`, body)
+            .post(`https://backend-tastyfy.onrender.com/query/search`, body)
             .then((res) => {
                 setRecipes(res.data.data.recipes);
             }
@@ -110,8 +110,8 @@ export default function SearchPage() {
             setIsError(false);
             setLoading(true);
 
-            let one = `http://localhost:5000/query/chefs`;
-            let two = `http://localhost:5000/query/ingredients`;
+            let one = `https://backend-tastyfy.onrender.com/query/chefs`;
+            let two = `https://backend-tastyfy.onrender.com/query/ingredients`;
 
             const requestOne = axios.get(one);
             const requestTwo = axios.get(two);

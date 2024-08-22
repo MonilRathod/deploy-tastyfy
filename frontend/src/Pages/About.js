@@ -15,16 +15,8 @@ function About() {
         <div style={{"text-align":"center"}}>
           <h2>Our Team</h2>
           <h4 style={{fontWeight:"normal"}}>
-            GAMIT JITESHKUMAR<br/>
-            PARASKAR KUNJ JAYESHBHAI<br/>
-          	SONANI DEVAL ARVINDBHAI<br/>
-           	MEETKUMAR NATVARBHAI SALVI<br/>
-          	KORADIA MITESH HITESHBHAI<br/>
-          	GAJERA DEEP NALINKUMAR<br/>
-          	AGRAWAL VATSAL DEVENDRABHAI<br/>
-          	BHAVSAR RAJ DIPAKKUMAR<br/>
-          	NIKHIL DINESH MEHTA<br/>
-          	GAMI DHYEY KANTIBHAI<br/>
+            Makwana Hardik<br/>
+            Patil Price<br/>
           </h4>
           <div style={{"font-weight":"bolder", fontFamily:"Noteworthy", fontSize :"40px"}}> Tastefy <FaTrademark size={10} style={{marginBottom:"15px"}}/></div>
         </div>

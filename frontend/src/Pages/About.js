@@ -15,8 +15,7 @@ function About() {
         <div style={{"text-align":"center"}}>
           <h2>Our Team</h2>
           <h4 style={{fontWeight:"normal"}}>
-            Makwana Hardik<br/>
-            Patil Price<br/>
+            monil raathod<br/>
           </h4>
           <div style={{"font-weight":"bolder", fontFamily:"Noteworthy", fontSize :"40px"}}> Tastefy <FaTrademark size={10} style={{marginBottom:"15px"}}/></div>
         </div>
